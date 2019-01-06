@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 将绘制参考坐标点移动至(400, 200)
     ctx.translate(400, 200);
+    // 将其旋转 45度
+    ctx.rotate(45 * (Math.PI / 180));
     // 填充色修改为蓝色
     ctx.fillStyle = 'blue';
     // 将基于偏移后的参考坐标，进行移动，点为(500, 300)
